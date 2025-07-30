@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>BLAKZET Project</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+    body {
+      margin: 0;
+      font-family: monospace;
+      background: linear-gradient(45deg, #000000, #1a1a1a, #000000);
+      background-size: 400% 400%;
+      animation: gradientBG 12s ease infinite;
+      color: red;
+      text-align: center;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    .header {
+      padding: 30px 10px 10px;
+    }
+
+    .header h1 {
+      font-size: 30px;
+      font-weight: bold;
+      color: white;
+      text-shadow: 0 0 10px red;
+      margin-bottom: 5px;
+    }
+
+    .header h2 {
+      font-size: 16px;
+      color: #ff4d4d;
+      text-shadow: 0 0 8px red;
+      margin-top: 0;
+    }
+
+    .section {
+      max-width: 340px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: rgba(0,0,0,0.4);
+      border-radius: 10px;
+      box-shadow: 0 0 8px red;
+    }
+
+    .app-button, .site-button, .next-button {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background-color: #1a1a1a;
+      border: 1px solid red;
+      border-radius: 6px;
+      padding: 10px 15px;
+      margin: 10px auto;
+      text-decoration: none;
+      color: white;
+      width: 80%;
+      justify-content: center;
+      transition: 0.3s;
+    }
+
+    .app-button img {
+      width: 25px;
+      height: 25px;
+    }
+
+    .app-button:hover, .site-button:hover, .next-button:hover {
+      background-color: red;
+      color: black;
+      transform: scale(1.05);
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(255, 0, 0, 0.6);
+    }
+
+    .footer {
+      margin: 40px 0 20px;
+      font-weight: bold;
+      color: red;
+      text-shadow: 0 0 10px red;
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+<h1>BLAKZET x SIMEONE</h1>
+<h2>simeone mcha yn3as o blakzet fa9</h2>
+</div>
+<!-- الصفحة الأولى -->
+<div class="section" id="page1">
+<a class="app-button" href="https://wa.me/+212600119471" target="_blank">
+<img alt="WhatsApp" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"/>
+      WhatsApp
+    </a>
+<a class="app-button" href="https://t.me/blakzetx" target="_blank">
+<img alt="Telegram" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg"/>
+      Telegram
+    </a>
+<a class="app-button" href="https://instagram.com/blakzetxxv" target="_blank">
+<img alt="Instagram" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"/>
+      Instagram
+    </a>
+<iframe allowfullscreen="" src="https://vm.tiktok.com/ZMScLHqmH/"></iframe>
+<button class="next-button" onclick="showPage2()">GET XIT 👺</button>
+<a class="site-button" href="#" onclick="toggleSocials()">👺 Application Support</a><div id="social-buttons" style="display:none; margin-top:10px; justify-content:center; gap:10px; flex-wrap:wrap;"><a class="site-button" href="#" onclick="showInput('Instagram')" target="_blank">📸 Instagram</a><a class="site-button" href="#" onclick="showInput('TikTok')" target="_blank">🎵 TikTok</a><a class="site-button" href="#" onclick="showInput('Facebook')" target="_blank">📘 Facebook</a></div></div>
+<!-- الصفحة الثانية -->
+<div class="section hidden" id="page2">
+<a class="site-button" href="https://www.mediafire.com/file/yqa14ft4jms66b7/MAGIC_BULLET_PANEL_COUNTER.html/file" target="_blank">MAGIC BULLET SAFE</a>
+<a class="site-button" href="https://www.mediafire.com/file/4v57a6hj9irpbqx/ANTENNA_SAFE_HEAD.html/file" target="_blank">ANTENNA SAFE</a>
+<a class="site-button" href="https://www.mediafire.com/file/m6096mujbw19i0x/SAFE_DAMAGE_BOOST.html/file" target="_blank">BUFF DAMAGE SAFE</a>
+<a class="site-button" href="https://www.mediafire.com/file/yxgj29mdbezlc0f/SAFE_AIM_RECOIL_COMBO.html/file" target="_blank">AIM DRAGE X NORECOIL SAFE</a>
+<a class="site-button" href="https://www.mediafire.com/file/ygnjqxqt8c7ig0d/CAMERA_ZOOM_OUT_SAFE.html/file" target="_blank">CAMERA ZOOM SAFE</a>
+<a class="site-button" href="https://www.mediafire.com/file/an7xcds139c32ai/AIM_POINT_LIFT_SAFE.html/file" target="_blank">CAMERA HACK SAFE</a>
+</div>
+<div class="footer">By BLAKZET x SIMEONE</div>
+<script>
+    function showPage2() {
+      document.getElementById("page1").style.display = "none";
+      document.getElementById("page2").style.display = "block";
+    }
+  </script>
+<script>
+function toggleSocials() {
+  const password = prompt("🔒 Enter password to access Git XIT links:");
+  if (password === "blakzet") {
+    const socials = document.getElementById("social-buttons");
+    socials.style.display = "flex";
+  } else {
+    alert("❌ Incorrect password!");
+  }
+}
+</script><script>
+function showInput(platform) {
+  const inputArea = document.getElementById("input-area");
+  const confirmMsg = document.getElementById("confirm-msg");
+  inputArea.style.display = "block";
+  confirmMsg.style.display = "none";
+  document.getElementById("platform-label").innerText = "↪️ " + platform + ":";
+}
+function confirmInput() {
+  const value = document.getElementById("input-field").value;
+  if (value.trim() !== "") {
+    document.getElementById("confirm-msg").style.display = "block";
+    document.getElementById("input-area").style.display = "none";
+    document.getElementById("input-field").value = "";
+  } else {
+    alert("⚠️ Please enter something.");
+  }
+}
+</script>
+<div id="input-area" style="display:none; margin-top:15px; text-align:center;">
+<label id="platform-label" style="display:block; margin-bottom:5px; color:#0f0;"></label>
+<input id="input-field" placeholder="Type here..." style="padding:8px; width:60%; border:1px solid #0f0; border-radius:5px; background:#111; color:#0f0;" type="text"/>
+<br/><br/>
+<button onclick="confirmInput()" style="padding:8px 16px; background:#0f0; border:none; border-radius:5px; font-weight:bold;">✅ Confirm</button>
+</div>
+<div id="confirm-msg" style="display:none; margin-top:15px; color:#0f0; font-weight:bold; text-align:center;">
+  ✅ تم التزويد بنجاح!
+</div>
+</body>
+</html>
